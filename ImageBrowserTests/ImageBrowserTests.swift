@@ -30,7 +30,7 @@ final class ImageBrowserTests: XCTestCase {
     }
     
     func testConversionForTwo() {
-      let result = 1 + 2
+      let result = 2 + 2
       XCTAssertEqual(result, 3)
     }
 
