@@ -40,7 +40,10 @@ class ImageSearchViewModel: ObservableObject {
     }
 
     func createAlert(with error: NetworkError ) {
-        imagesLoadingError = error.backendError == nil ? error.initialError.localizedDescription : error.backendError!.message
+        imagesLoadingError = error.backendError == nil ?
+            error.initialError.localizedDescription :
+            error.backendError!.message
+
         self.showImageRetrievalFailedAlert = true
     }
 
