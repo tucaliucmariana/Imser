@@ -36,7 +36,7 @@ final class ImageBrowserTests: XCTestCase {
     
     func testConversionForOne() {
       let result = 1 + 1
-      XCTAssertEqual(result, 2)
+      XCTAssertEqual(result, 3)
     }
 
 }
