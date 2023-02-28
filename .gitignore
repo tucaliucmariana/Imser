@@ -8,3 +8,4 @@ build/
 *.perspective
 *.perspectivev3
 ImageBrowser.xcodeproj/*
+fastlane/test_output/*
